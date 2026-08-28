@@ -3,6 +3,7 @@ using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
 using Assignment01Advanced.Question05;
 using Assignment01Advanced.Question06;
+using Assignment01Advanced.Question07;
 using System.ComponentModel.Design;
 
 namespace Assignment01Advanced
@@ -83,6 +84,20 @@ namespace Assignment01Advanced
             //IRepository<Product> repo = new ProductRepository();
             //repo.Add(new Product(1, "Phone", 5000m));
 
+
+
+            #endregion
+
+            #region Question07
+
+            //Q7: What is the 'struct' constraint? Write an example.
+
+            /*
+            struct constraint is a type of generic constraint that allow only value types (int double struct ....)
+             */
+
+            //Invetory<int> I1 = new Invetory<int>(1);
+            //Invetory<string> I1 = new Invetory<string>("Hello"); => Error (Reference Type Not Allowed)
 
 
             #endregion
