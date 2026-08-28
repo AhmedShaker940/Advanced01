@@ -209,6 +209,18 @@ namespace Assignment01Advanced
 
             #endregion
 
+            #region Question16
+
+            //Q16: What is contravariance? Explain the 'in' keyword.
+
+            /*
+             contravariance is a feature in C# that allow mehtods to accept arguments of less derived types than originaly specified
+             the in keyword is placed also beore the generic type parameter <in T> to tell the compiler that T is only input as a method parameter and never return type
+             */
+            #endregion
+
+
+
         }
 
     }
