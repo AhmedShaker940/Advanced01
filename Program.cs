@@ -161,6 +161,19 @@ namespace Assignment01Advanced
              */
 
             #endregion
+
+            #region Question12
+
+            //Q12: How do you apply multiple constraints? Write an example
+
+            /* 
+             we use multible constraints by using "," between the constraints
+
+            Example : where T : Base Class, Interface , new()
+             */
+
+            #endregion
+
         }
 
     }
