@@ -2,6 +2,7 @@
 using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
 using Assignment01Advanced.Question05;
+using Assignment01Advanced.Question06;
 using System.ComponentModel.Design;
 
 namespace Assignment01Advanced
@@ -71,7 +72,21 @@ namespace Assignment01Advanced
 
             #endregion
 
+            #region Queation06
+
+            //Q6: What is a generic interface? Write IRepository<T>.
+
+            /*
+             Generic Interface is a type of interfaces that can be implmented with different types of classes or structs (user defined)
+             */
+
+            //IRepository<Product> repo = new ProductRepository();
+            //repo.Add(new Product(1, "Phone", 5000m));
+
+
+
+            #endregion
         }
 
-     }
+    }
 }
