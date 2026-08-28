@@ -232,6 +232,19 @@ namespace Assignment01Advanced
              */
             #endregion
 
+            #region Question18
+
+            //Q18: How do static members work in generic types?
+
+            /*
+             
+            in Generic type te static members is Shared based on the Type T of the Class <int> has it's owmn static field which is shared accross the class object member but int <string> it's a different static member
+             
+             */
+
+
+            #endregion
+
         }
 
     }
