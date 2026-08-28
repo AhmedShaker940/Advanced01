@@ -1,4 +1,5 @@
-﻿using Assignment01Advanced.Question02;
+﻿using Assignment01Advanced.Queation10;
+using Assignment01Advanced.Question02;
 using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
 using Assignment01Advanced.Question05;
@@ -129,6 +130,23 @@ namespace Assignment01Advanced
             //Factory<Item> F1 = new Factory<Item>();
             //Item I = F1.Create();
             //Console.WriteLine(I.Id);
+
+            #endregion
+
+            #region Question10
+
+            //Q10: What is the interface constraint? Write an example.
+
+            /*
+             Inerface constraint is type of Generic constraints that requires that T Impelement a specifed Interface
+             */
+
+            //Printer<Report> P1 = new Printer<Report>();
+            //P1.PrintItem(new Report()); // Allowed
+
+            //Printer<Document> P2 = new Printer<Document>();
+            //P2.PrintItem(new Document()); // Allowed
+
 
             #endregion
         }
