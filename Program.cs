@@ -1,4 +1,6 @@
-﻿namespace Assignment01Advanced
+﻿using Assignment01Advanced.Question02;
+
+namespace Assignment01Advanced
 {
     internal class Program
     {
@@ -14,7 +16,18 @@
                       - Code Usability which allow us to write the code once then use it in many forms after we specify the type of the parameter
                       - it allow us to Avoid boxing and unboxing (better performance not like Object)
              
-             */ 
+             */
+            #endregion
+
+            #region Question02
+
+            //Q2: Write a generic class Container<T> with Add and Get methods.
+
+            //container<int> C1 = new container<int>();
+            //C1.Add(5);
+            //int Value = C1.Get();
+            //Console.WriteLine(Value);
+
             #endregion
 
         }
