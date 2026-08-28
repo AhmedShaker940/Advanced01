@@ -219,7 +219,18 @@ namespace Assignment01Advanced
              */
             #endregion
 
+            #region Question17
 
+            //Q17: What is the difference between covariance and contravariance ?
+
+            /*
+             - in Contravariance the data goes in like a method parameter
+             - in covarianceData comes out return values
+             - contravariance Allows a less derived (base) type
+             - covariance Allows more derived (specific) type
+
+             */
+            #endregion
 
         }
 
