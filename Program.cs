@@ -174,6 +174,17 @@ namespace Assignment01Advanced
 
             #endregion
 
+            #region Question13
+
+            //Q13: What does the 'default' keyword do in generics?
+
+            /*
+             'default' Keyword is used to return the Default Value of T Specially that we don't know the type of T 
+            for example default (int) => 0 , default (string) => Null , default (bool) => false
+             */
+
+            #endregion
+
         }
 
     }
