@@ -5,6 +5,7 @@ using Assignment01Advanced.Question05;
 using Assignment01Advanced.Question06;
 using Assignment01Advanced.Question07;
 using Assignment01Advanced.Question08;
+using Assignment01Advanced.Question09;
 using System.ComponentModel.Design;
 
 namespace Assignment01Advanced
@@ -114,6 +115,20 @@ namespace Assignment01Advanced
             //Inventory2<string> I = new Inventory2<string>("Hello");
             //Invetory2<int> I1 = new Invetory2<int>(1); //=> Error (Value Type Not Allowed)
 
+
+            #endregion
+
+            #region Question09
+
+            //Q9: What is the 'new()' constraint? Write an example.
+
+            /*
+             the new() constraint is a type of Generic constraint that Consider that T must have a empty parameterless Ctor
+             */
+
+            //Factory<Item> F1 = new Factory<Item>();
+            //Item I = F1.Create();
+            //Console.WriteLine(I.Id);
 
             #endregion
         }
