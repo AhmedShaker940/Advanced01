@@ -198,6 +198,17 @@ namespace Assignment01Advanced
             //Console.WriteLine(list.Get(10));
             #endregion
 
+            #region Question15
+
+            //Q15: What is covariance? Explain the 'out' keyword.
+
+            /*
+              covariance is a feature in C# that allow us to use more specifed Derived or subclass than originaly specifed 
+              in C# the out keyword is placed before the Generic Type Parameter <out T> it tells the compile that T is only output (return type) and not input type (method parameter)
+             */
+
+            #endregion
+
         }
 
     }
