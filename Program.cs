@@ -1,5 +1,7 @@
 ﻿using Assignment01Advanced.Question02;
 using Assignment01Advanced.Question03;
+using Assignment01Advanced.Question04;
+using System.ComponentModel.Design;
 
 namespace Assignment01Advanced
 {
@@ -44,7 +46,21 @@ namespace Assignment01Advanced
 
             #endregion
 
+            #region Questoin04
 
+            //Q4: What is a generic method? Write Swap<T> method.
+
+            /*
+              A method also can be a Generic where each call can use a different type
+             */
+
+            //int a = 1;
+            //int b = 2;
+            //Helper.Swap<int>(ref a , ref b);
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
+
+            #endregion
 
         }
     }
