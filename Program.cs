@@ -1,4 +1,5 @@
 ﻿using Assignment01Advanced.Question02;
+using Assignment01Advanced.Question03;
 
 namespace Assignment01Advanced
 {
@@ -29,6 +30,21 @@ namespace Assignment01Advanced
             //Console.WriteLine(Value);
 
             #endregion
+
+            #region Question03
+
+            //Q3:What are multiple type parameters? Write Pair<TKey,TValue >.
+
+            /*
+            A class can have more than one parameter type <T1,T2,T3, ... > 
+             */
+
+            //Pair<int, string> P1 = new Pair<int, string>(1, "Ahmed");
+            //Console.WriteLine($"Key : {P1.Key} - Value : {P1.Value}");
+
+            #endregion
+
+
 
         }
     }

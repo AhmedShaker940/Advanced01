@@ -9,16 +9,16 @@ namespace Assignment01Advanced.Question02
     // Q2: Write a generic class Container<T> with Add and Get methods.
     internal class container<T>
     {
-        T box;
+        //T box;
 
-        public void Add(T item)
-        {
-            box = item;
-        }
+        //public void Add(T item)
+        //{
+        //    box = item;
+        //}
 
-        public T Get()
-        {
-            return box;
-        }
+        //public T Get()
+        //{
+        //    return box;
+        //}
     }
 }
