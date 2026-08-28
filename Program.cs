@@ -4,6 +4,7 @@ using Assignment01Advanced.Question04;
 using Assignment01Advanced.Question05;
 using Assignment01Advanced.Question06;
 using Assignment01Advanced.Question07;
+using Assignment01Advanced.Question08;
 using System.ComponentModel.Design;
 
 namespace Assignment01Advanced
@@ -98,6 +99,20 @@ namespace Assignment01Advanced
 
             //Invetory<int> I1 = new Invetory<int>(1);
             //Invetory<string> I1 = new Invetory<string>("Hello"); => Error (Reference Type Not Allowed)
+
+
+            #endregion
+
+            #region Question08
+
+            //Q8: What is the 'class' constraint? Write an example.
+
+            /*
+              class constraint is a type of generic constraint that allow only Reference types (string class ....)
+             */
+
+            //Inventory2<string> I = new Inventory2<string>("Hello");
+            //Invetory2<int> I1 = new Invetory2<int>(1); //=> Error (Value Type Not Allowed)
 
 
             #endregion
