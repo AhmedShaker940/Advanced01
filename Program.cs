@@ -149,6 +149,18 @@ namespace Assignment01Advanced
 
 
             #endregion
+
+            #region Question11
+
+            //Q11: What is the base class constraint? Write an example.
+
+            /*
+             base class constraint is a type of Generic constraints that requires that a T must inherit from a base class 
+
+               - public class student<T> Where T : Person{}
+             */
+
+            #endregion
         }
 
     }
