@@ -245,6 +245,18 @@ namespace Assignment01Advanced
 
             #endregion
 
+            #region Question19
+
+            //Q19: How can you inherit from a generic class?
+
+            /*
+             there is two ways to inherit form a generic class 
+             - specifying the concrete type : class Child : Parent<int>
+             - keeping the child class generic : class Child<T> : Parent<T>
+             */
+
+            #endregion
+
         }
 
     }
