@@ -1,6 +1,7 @@
 ﻿using Assignment01Advanced.Question02;
 using Assignment01Advanced.Question03;
 using Assignment01Advanced.Question04;
+using Assignment01Advanced.Question05;
 using System.ComponentModel.Design;
 
 namespace Assignment01Advanced
@@ -62,6 +63,15 @@ namespace Assignment01Advanced
 
             #endregion
 
+            #region Question05
+
+            //Q5: Write a generic method FindMax<T> that finds maximum value
+
+            //Console.WriteLine(Max.FindMax(10, 100)); 
+
+            #endregion
+
         }
-    }
+
+     }
 }
