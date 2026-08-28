@@ -7,6 +7,7 @@ using Assignment01Advanced.Question06;
 using Assignment01Advanced.Question07;
 using Assignment01Advanced.Question08;
 using Assignment01Advanced.Question09;
+using Assignment01Advanced.Question14;
 using System.ComponentModel.Design;
 
 namespace Assignment01Advanced
@@ -183,6 +184,18 @@ namespace Assignment01Advanced
             for example default (int) => 0 , default (string) => Null , default (bool) => false
              */
 
+            #endregion
+
+            #region Question14
+
+            //Q14: Write a SafeList<T> that returns default when the index is invalid.
+
+            //SafeList<int> list = new SafeList<int>();
+            //list.Add(10);
+            //list.Add(20);
+            //list.Add(30);
+            //Console.WriteLine(list.Get(1));
+            //Console.WriteLine(list.Get(10));
             #endregion
 
         }
